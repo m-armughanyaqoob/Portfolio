@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the data science and analyst portfolio of Armughan Yaqoob. Explore my projects, skills, and expertise in data analysis, machine learning, and more.">
+<meta name="keywords" content="Armughan Yaqoob, data science, analyst, machine learning, data analysis, portfolio">
+
+<title>Armughan Yaqoob - Data Science & Analyst Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-...." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Add your custom styles here */
+    .contact-section {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-icon {
+      font-size: 36px;
+      margin: 0 10px;
+      color: #333; /* Adjust the color as needed */
+    }
+    .blog-text {
+      display: none;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Armughan Yaqoob" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Armughan Yaqoob">Armughan Yaqoob</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">armughanyaqoob1433@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (774)-849-0666</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">22nd Nov, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dartmouth, Massachussets, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/muhammad-armughan-yaqoob-9843461b2/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/armughanyaqoob" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Data Scientist based in Dartmouth, Massachussets, with a passion for unraveling intricate datasets to uncover valuable insights. I take pleasure in turning complex data problems into sophisticated and practical solutions.
+          </p>
+
+          <p>
+            As a Data Scientist, my primary role involves analyzing and interpreting complex datasets to derive meaningful insights. I specialize in transforming intricate data challenges into elegant and actionable solutions, with a focus solely on the realm of data science.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+            
+                <p class="service-item-text">
+                    Transforming complex data into visually compelling insights for informed decision-making.
+                </p>
+            </div>
+            
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python and R Programming</h4>
+            
+                <p class="service-item-text">
+                    Expert development in Python and R languages, delivering high-quality solutions at a professional level.
+                </p>
+            </div>
+            
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+            
+                <p class="service-item-text">
+                    Expert implementation of machine learning solutions for various applications and platforms.
+                </p>
+            </div>
+            
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SQL & Database Management</h4>
+            
+                <p class="service-item-text">
+                    Proficient handling of SQL and database management, ensuring high-quality data solutions at a professional level.
+                </p>
+            </div>
+            
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Massachussets, Dartmouth, USA</h4>
+
+              <span>Sept 2023 — May 2025</span>
+
+              <p class="timeline-text">
+                Masters in Data Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NED University Of Engineering And Technology, Karachi, Pakistan</h4>
+
+              <span>Oct 2019 — Aug 2023</span>
+
+              <p class="timeline-text">
+                Bachelors In Computer Science
+              </p>
+
+            </li>
+
+           
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Norstella ~ Data Scientist Intern</h4>
+
+              <span>Jun 2024 - Sept 2024
+
+</span>
+
+              <p class="timeline-text">
+                • Conducted comprehensive A/B tests to evaluate and optimize marketing business strategies, leading to a 15% improvement in strategy effectiveness.
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jaffer Business ~ Data Analyst Intern</h4>
+
+              <span>May 2023 – Aug 2023
+
+</span>
+
+              <p class="timeline-text">
+                •	Leveraged business analysis techniques and employed Tableau and Power BI to craft insightful dashboards and key performance indicators, leading to a 20% enhancement in sales data comprehension              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TPL-Corporation ~ Data Analyst Intern</h4>
+
+              <span>Oct 2022 – Nov 2022              </span>
+
+              <p class="timeline-text">
+                •	Implemented data-driven forecasting techniques to improve sales projections accuracy by 25%, facilitating informed inventory management decisions and fostering business growth with the use of Python.              </p>
+
+            </li>
+
+      
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL & Database Management</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistical Modeling</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Statistical Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Visualization</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Statistical Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>R Programming</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Visualization</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="data visualization">
+              <a href="./assets/Pdf projects/power bi.pdf" class="project-link" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Data Visualization Project 1" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">PowerBI</h3>
+                <p class="project-category">Data Visualization</p>
+              </a>
+            </li>
+            
+            
+
+            <li class="project-item  active" data-filter-item data-category="data visualization">
+              <a href="./assets/Pdf projects/Tableau.pdf" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Data Visualization Project 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tableau</h3>
+
+                <p class="project-category">Data Visualization</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="statistical analysis">
+              <a href="https://github.com/m-armughanyaqoob/Health-Analysis-Project" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Statistical Modeling Project 1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Health-Analysis</h3>
+
+                <p class="project-category">Statistical Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/m-armughanyaqoob/Retail-Recommendation-System" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="Machine Learning Project 1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Retail Recommender System</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="statistical analysis">
+              <a href="https://github.com/m-armughanyaqoob/Fatal-Police-Shooting-Forecasting" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Statistical Modeling Project 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Police Shootings Data Analysis</h3>
+
+                <p class="project-category">Statistical Analysis</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="data visualization">
+              <a href="./assets/Pdf projects/excel.pdf" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Data Visualization Project 3" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ms Excel</h3>
+
+                <p class="project-category">Data Visualization</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/m-armughanyaqoob/Stock-Price-Prediction" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="Machine Learning Project 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock-Price-Prediction
+                </h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/m-armughanyaqoob/Water-Potability-Prediction" class="project-link" target="_blank">
+            
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/water tech.png" alt="Machine Learning Project New" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Water Potability Prediction Project</h3>
+                <p class="project-category">Machine Learning</p>
+            
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/m-armughanyaqoob/Molecular-Bio-activity-Prediction" class="project-link" target="_blank">
+            
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/molecule.jpg" alt="Machine Learning Project New" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Molecular-Bio-activity-Prediction</h3>
+                <p class="project-category">Machine Learning</p>
+            
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="data visualization">
+              <a href="https://github.com/yourusername/powerbi" class="project-link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <!-- Blog Post 1 -->
+            <li class="blog-post-item">
+              <a href="#" class="blog-post-link">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AI & Machine Learning</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">November 24, 2023
+
+                    </time>
+
+                  </div>
+                  <h3 class="h3 blog-item-title">Future of Artificial Intelligence</h3>
+                  <p class="blog-text">
+                    Fasten your seatbelt as we take a glimpse into the future of artificial intelligence.
+                  </p>
+                  <button class="read-more-button" onclick="window.location.href='post.html'">Read More</button>
+                </div>
+              </a>
+            </li>
+      
+            <!-- Blog Post 2 -->
+            <li class="blog-post-item">
+              <a href="#" class="blog-post-link">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Analysing Data</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">November 18, 2023
+
+                    </time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Impact of Big Data on Business Strategy</h3>
+                  <p class="blog-text">
+                    In today's data-driven world, big data is not just a buzzword—it's a game-changer for businesses. Let's explore how the vast amounts of data available are influencing strategic decision-making.
+                  </p>
+                  <button class="read-more-button" onclick="window.location.href='bigdata.html'">Read More</button>
+                </div>
+              </a>
+            </li>
+      
+            <!-- Blog Post 3 -->
+            <li class="blog-post-item">
+              <a href="#" class="blog-post-link">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">December 3, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Symphony of Algorithms</h3>
+                  <p class="blog-text">
+                    Algorithms, the unsung heroes of the digital age, quietly shape our everyday experiences                  </p>
+                  <button class="read-more-button" onclick="window.location.href='algorithm.html'">Read More</button>
+                </div>
+              </a>
+            </li>
+      
+            <!-- Blog Post 4 -->
+            <li class="blog-post-item">
+              <a href="#" class="blog-post-link">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Visualization</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">December 20, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Data Visualization</h3>
+                  <p class="blog-text">
+                    They say a picture is worth a thousand words—especially in the world of data. Learning essential tools and techniques like Tableau enhances communication through impactful visuals.
+                  </p>
+                  <button class="read-more-button" onclick="window.location.href='visualization.html'">Read More</button>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+
+           <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+           
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190966.71840245608!2d-70.97035044999998!3d41.59402005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4e2e5b1b2908b%3A0x4e74271e655eb264!2sDartmouth%2C%20MA%2C%20USA!5e0!3m2!1sen!2s!4v1703156809647!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-section">
+
+          <h3 class="h3 section-title">Contact Me</h3>
+      
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/muhammad-armughan-yaqoob-9843461b2/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin contact-icon"></i>
+            </a>
+      
+            <a href="https://github.com/armughanyaqoob" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github contact-icon"></i>
+            </a>
+      
+            <a href="mailto:armughanyaqoob1433@gmail.com">
+              <i class="fas fa-envelope contact-icon"></i>
+            </a>
+          </div>
+      
+        </section>
+      
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    // JavaScript to handle the expand/collapse functionality
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all blog post links
+      var blogPostLinks = document.querySelectorAll('.blog-post-link');
+  
+      // Add click event listener to each blog post link
+      blogPostLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          
+          // Toggle the visibility of the blog text
+          var blogText = link.querySelector('.blog-text');
+          if (blogText) {
+            blogText.style.display = (blogText.style.display === 'none' || blogText.style.display === '') ? 'block' : 'none';
+          }
+        });
+      });
+    });
+  </script>
+  
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
